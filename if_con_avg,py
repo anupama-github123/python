@@ -1,0 +1,11 @@
+maths=int(input("enter maths mark:"))
+physics=int(input("enter physics mark:"))
+chemistry=int(input("enter chemistry mark:"))
+average=(maths+physics+chemistry)/3
+print('average is:',average)
+if average >6:
+    print('good job..')
+elif average <7 and average >4:
+    print('work hatrd')
+else:
+    print('you failed..')
